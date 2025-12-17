@@ -37,7 +37,7 @@ function playSound(soundFile) {
     });
 }
 
-// Optional: Add keyboard support
+// Add keyboard support (keys 1-9)
 document.addEventListener("keydown", function (event) {
     const keyMap = {
         1: 0,
